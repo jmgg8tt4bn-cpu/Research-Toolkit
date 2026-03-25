@@ -1,4 +1,4 @@
-# neb_submit,sh
+# neb_submit.sh
 A robust Bash script designed to automate the tedious process of NEB (Nudged Elastic Band) pre-processing.
 
 Smart Logic: Supports both shared and independent initial states (IS).
