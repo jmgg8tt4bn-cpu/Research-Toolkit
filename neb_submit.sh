@@ -25,7 +25,7 @@ DEFECT_LIST=(
 "Vac_I_1_39_38_FS"
 )
 
-NEB_DIR="neb" # 存在则不会新建，对于不同的共用IS，最好分开放置文件夹，不然分不清。
+NEB_DIR="neb" # 存在则不会新建，对于不同的共用IS，最好以共用IS名称设置文件夹。
 mkdir -p "$NEB_DIR" || exit 1
 cd "$NEB_DIR" || exit 1
 
